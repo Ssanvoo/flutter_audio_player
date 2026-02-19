@@ -7,6 +7,7 @@ import 'pages/home_page.dart';
 // Este método es el punto de entrada de la aplicación.
 // Se llama a la función runApp(), que recibe como parámetro
 // un widget de tipo MyApp.
+//Prueba git
 void main() {
   runApp(
     // Se crea un MultiProvider para gestionar múltiples proveedores de estado.
