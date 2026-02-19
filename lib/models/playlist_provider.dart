@@ -22,7 +22,7 @@ class PlaylistProvider extends ChangeNotifier {
     Song(
       songName: "Senda Bellakona",
       artistName: "Sinaka",
-      albumArtImagePath: "assets/images/senda_bellakona.jpg",
+      albumArtImagePath: "assets/images/picha.jpg",
       // Las imágenes, que utilizan Image.asset(), requieren la ruta completa desde assets/.
       audioPath: "audio/Sinaka-SENDA-BELLAKONA.mp3",
       // En el caso de audio, AudioPlayer.play(AssetSource()), la ruta es relativa
