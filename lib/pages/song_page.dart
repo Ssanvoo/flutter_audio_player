@@ -54,7 +54,7 @@ class SongPage extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.only(left: 25, right: 25, bottom: 25),
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
+                // mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   // - App bar personalizada
                   Row(
@@ -62,7 +62,10 @@ class SongPage extends StatelessWidget {
                     children: [
                       // Botón "Atrás" para regresar a la pantalla
                       IconButton(
-                        onPressed: () => Navigator.pop(context),
+                        onPressed: () => {
+                          value.pauseOrResume(),
+                          Navigator.pop(context)
+                        },
                         icon: const Icon(Icons.arrow_back),
                       ),
                       // Título en la AppBar
